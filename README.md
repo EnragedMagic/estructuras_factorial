@@ -10,7 +10,7 @@ Tiempo de ejecucion para 247!: 23.7412 segundos.
 
 Uso de memoria: aproximadamente 26.9 MiB constantes durante la ejecucion.
 
-![Comparacion de tiempo](resultados/imagenes.png)
+![Comparacion de tiempo](resultados/recursivo.png)
 
 
 2. Función iterativa (factorial_iterativo)
