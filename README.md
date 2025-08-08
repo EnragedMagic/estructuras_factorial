@@ -1,4 +1,8 @@
-Analisis de Resultados – Python
+### Proposito del proyecto
+Este proyecto tiene como objetivo comparar el rendimiento entre dos implementaciones del calculo del factorial de un numero: una version recursiva y otra iterativa. Se analiza y documenta el uso de memoria y el tiempo de ejecucion de ambas versiones, tanto en Python como en C, para evidenciar las diferencias en eficiencia y limitaciones entre los enfoques.
+
+
+### Analisis de Resultados – Python
 En esta seccion se presentan los resultados obtenidos al comparar las implementaciones recursiva e iterativa del calculo de factorial en Python, evaluando su tiempo de ejecucion, uso de memoria y limitaciones.
 
 1. Funcion recursiva (factorial_recursivo)
@@ -29,7 +33,7 @@ Limitaciones: La recursiva esta limitada por la configuracion de profundidad max
 
 ![Comparacion de tiempo](resultados/iterativo.png)
 
-Analisis de Resultados - C 
+### Analisis de Resultados - C 
 
 1. Funcion recursiva (factorial_recursivo.c)
 Limite alcanzado: La version recursiva en C puede calcular valores hasta 247! sin errores, pero a partir de 248, en algunos sistemas operativos puede producir un "stack overflow" debido a que cada llamada recursiva consume espacio en la pila. A diferencia de Python, el límite no es configurable facilmente, pero sigue existiendo.
@@ -75,7 +79,7 @@ Line     Memoria usada   Incremento   Linea de codigo
 
 Tiempo de ejecucion: 0.0002 segundos
 
-Métodos de medición
+### Métodos de medición
 Python
 
 Tiempo: time.time()
