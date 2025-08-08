@@ -1,4 +1,4 @@
-Análisis de Resultados – Python
+Analisis de Resultados – Python
 En esta seccion se presentan los resultados obtenidos al comparar las implementaciones recursiva e iterativa del calculo de factorial en Python, evaluando su tiempo de ejecucion, uso de memoria y limitaciones.
 
 1. Funcion recursiva (factorial_recursivo)
