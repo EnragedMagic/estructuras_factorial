@@ -42,7 +42,7 @@ Uso de memoria: alrededor de 1.03 MB, creciendo con cada llamada recursiva. El u
 
 Filename: factorial_r.py
 
-Line #    Memoria usada   Incremento   Linea de codigo
+Line     Memoria usada   Incremento   Linea de codigo
 ========================================================
      5     14.828 MiB     14.828 MiB   @profile
      6     14.828 MiB      0.000 MiB   def factorial_recursivo(n):
@@ -64,7 +64,7 @@ Uso de memoria: apenas 0.15 MB, ya que solo se necesita una variable acumuladora
 
 Filename: factorial_i.py
 
-Line #    Memoria usada   Incremento   Linea de codigo
+Line     Memoria usada   Incremento   Linea de codigo
 ========================================================
      5     14.109 MiB     14.109 MiB   @profile
      6     14.109 MiB      0.000 MiB   def factorial_iterativo(n):
