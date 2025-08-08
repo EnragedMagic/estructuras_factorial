@@ -8,6 +8,6 @@ def factorial_iterativo(n):
     return resultado
 
 
-numero = int(input("Ingrese un número: "))
+numero = int(input("Ingrese un numero: "))
 print("Resultado:", factorial_iterativo(numero))
 
