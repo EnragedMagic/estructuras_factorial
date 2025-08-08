@@ -13,7 +13,7 @@ Uso de memoria: aproximadamente 26.9 MiB constantes durante la ejecucion.
 ![Comparacion de tiempo](resultados/recursivo.png)
 
 
-2. Función iterativa (factorial_iterativo)
+2. Funcion iterativa (factorial_iterativo)
 Límite alcanzado: No presenta la limitacion de profundidad de recursion, ya que no realiza llamadas anidadas. Puede calcular factoriales extremadamente grandes mientras haya memoria suficiente.
 
 Tiempo de ejecucion para 248!: 0.0305 segundos.
