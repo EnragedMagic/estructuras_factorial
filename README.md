@@ -94,3 +94,13 @@ Memoria: valgrind --tool=massif
 
 El grafico muestra la comparacion entre las implementaciones recursiva e iterativa en Python.
 Ambas alcanzan valores similares de n, pero la version iterativa ejecuta el calculo en mucho menos tiempo y con un uso de memoria ligeramente menor, evidenciando una mayor eficiencia frente a la recursiva.
+
+# GRAFICOS - C
+
+![Grafico](resultados/graficoC.png)
+
+El grafico muestra que en C tanto la version recursiva como la iterativa alcanzan valores similares de n y mantienen tiempos de ejecucion y uso de memoria muy bajos.
+Esto refleja la eficiencia del lenguaje C, donde las diferencias entre ambos enfoques son minimas en comparacion con Python.
+
+
+## Hecho por Johan Steven Galeano Gonzalez - PARADIGMAS DE PROGRAMACION G02
