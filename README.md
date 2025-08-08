@@ -7,13 +7,13 @@ Comparación de eficiencia de algoritmos hecho por Johan Steven Galeano Gonzalez
 
 Este proyecto tiene como objetivo comparar la eficiencia de dos enfoques distintos para calcular el factorial de un numero entero n: uno mediante recursividad y otro mediante iteracion, implementados en Python y C.
 
----
+
 
 ## Proposito de la tarea
 
 Explorar y analizar el comportamiento de dos algoritmos diferentes para resolver el mismo problema (factorial), comparando su tiempo de ejecucion y uso de memoria. El resultado debe incluir representaciones graficas y una documentacion clara del proceso.
 
----
+
 
 ## Implementacion de funciones
 
@@ -24,7 +24,7 @@ Se implementaron dos funciones por lenguaje (Python y C):
 
 Cada una calcula el factorial de un numero natural n. La funcion recursiva se llama a si misma, mientras que la iterativa utiliza un bucle for.
 
----
+
 
 ## Metodos para medir eficiencia
 
@@ -36,7 +36,7 @@ Cada una calcula el factorial de un numero natural n. La funcion recursiva se ll
 - Tiempo de ejecucion: con `clock()` de la biblioteca `time.h`
 - Uso de memoria: con la herramienta `valgrind`
 
----
+
 
 ## Representacion grafica
 
