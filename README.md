@@ -87,3 +87,10 @@ C
 Tiempo: clock() de <time.h>
 
 Memoria: valgrind --tool=massif
+
+# GRAFICOS - PYTHON 
+
+![Grafico](resultados/graficopython.png)
+
+El grafico muestra la comparacion entre las implementaciones recursiva e iterativa en Python.
+Ambas alcanzan valores similares de n, pero la version iterativa ejecuta el calculo en mucho menos tiempo y con un uso de memoria ligeramente menor, evidenciando una mayor eficiencia frente a la recursiva.
