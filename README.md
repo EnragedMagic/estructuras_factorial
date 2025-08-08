@@ -48,9 +48,7 @@ Los resultados se representaron usando:
 
 - C: los datos obtenidos se exportaron a un archivo `.csv` y luego se graficaron para facilitar la comparacion.
 
----
 
-## Estructura del repositorio
 
 
 
