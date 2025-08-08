@@ -26,3 +26,5 @@ Velocidad: La implementacion iterativa es considerablemente mas rápida que la r
 Memoria: Ambas implementaciones usan una cantidad de memoria similar, aunque la recursiva incurre en un pequeño overhead debido al almacenamiento en la pila de ejecución.
 
 Limitaciones: La recursiva esta limitada por la configuracion de profundidad maxima de recursión en Python, mientras que la iterativa no presenta este problema.
+
+![Comparacion de tiempo](resultados/iterativo.png)
