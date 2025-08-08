@@ -74,3 +74,16 @@ Line     Memoria usada   Incremento   Linea de codigo
     10     14.109 MiB      0.000 MiB       return resultado
 
 Tiempo de ejecucion: 0.0002 segundos
+
+Métodos de medición
+Python
+
+Tiempo: time.time()
+
+Memoria: @profile de memory_profiler
+
+C
+
+Tiempo: clock() de <time.h>
+
+Memoria: valgrind --tool=massif
